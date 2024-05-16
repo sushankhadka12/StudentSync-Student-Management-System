@@ -1,0 +1,32 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+.form{
+    background-color: rgb(110, 99, 99);
+    height: 35%;
+    overflow: hidden;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+
+}
+.formr{
+    text-align: center;
+}
+.form h2 {
+    color: brown;
+}
+.submit:hover{
+    background-color:bisque;
+}
+.link-forget{
+    color: bisque;
+    text-decoration: none;
+    color: black;
+}
+.link-forget:hover{
+    color: bisque;
+}

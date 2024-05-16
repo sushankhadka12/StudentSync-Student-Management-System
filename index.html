@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form">
+        <form action="login_process.php" class="formr" method="post">
+            <h2>Login</h2>
+            <p>Username: <input type="text" name="username" required></p>
+            <p>Password: <input type="password" name="password" required></p>
+            <p>
+                <label for="role">Choose Role</label>
+                <select name="role" id="role">
+                    <option value="Admin">Admin</option>
+                    <option value="Parent">Parent</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Student">Student</option>
+                </select>
+            </p>
+            <input type="submit" class="submit" value="Login">
+            <a href="Forget.php" class ="link-forget"><p>Forget Password</p></a>
+            <!-- sushan khadka -->
+        </form>
+    </div>
+</body>
+</html>
+>
